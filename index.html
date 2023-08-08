@@ -82,7 +82,7 @@ body, html {
 <!-- First Parallax Image with Logo Text -->
 <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
   <div class="w3-display-middle" style="white-space:nowrap;">
-    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">MY <span class="w3-hide-small">WEBSITE</span> LOGO</span>
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">Joshua <span class="w3-hide-small">Meenan</span></span>
   </div>
 </div>
 
@@ -90,7 +90,7 @@ body, html {
 <div class="w3-content w3-container w3-padding-64" id="about">
   <h3 class="w3-center">ABOUT ME</h3>
   <p class="w3-center"><em>Joshua Meenan</em></p>
-  <p>I am a recently graduated from Indiana University.</p>
+  <p>I am a recent graduate from Indiana Unviersity Bloomington. There I studied and completed my Bachelors of Science in Computer Science with a specialization in Cybersecurity. I also have a minor in Mathematics. Currently looking for Security Analyst roles, or Junior Developer roles.</p>
   <div class="w3-row">
     <div class="w3-col m6 w3-center w3-padding-large">
       <p><b><i class="fa fa-user w3-margin-right"></i>Joshua Meenan</b></p><br>
@@ -99,23 +99,41 @@ body, html {
 
     <!-- Hide this text on small devices -->
     <div class="w3-col m6 w3-hide-small w3-padding-large">
-      <p>Welcome to my website. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor
-        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <p>I grew up on the east side of Indianapolis near Hancock County. I went to highschool at Mt. Vernon. It was there that I was exposed to my first computing class and even had a teacher recommend that I try out the computer science AP test which she even paid for. From that success and support I would then switch my plans that I had for years of pursuing engineering at Purdue to now pursuing Computer Science at Indiana University. Throughout my College expierence I have gained more expierence coding, learned multiple algorithmns and techniques, and learned about the network structure, policies, and vulnerabilities.</p>
     </div>
   </div>
   <p class="w3-large w3-center w3-padding-16">Skills:</p>
-  <p class="w3-wide"><i class="fa fa-camera"></i>Photography</p>
+  <p class="w3-wide"><img src="imgs/Python.svg.png" style="width:5%" class="w3-hover-opacity"> Python</p>
   <div class="w3-light-grey">
-    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:90%">90%</div>
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:90%">4 years</div>
   </div>
-  <p class="w3-wide"><i class="fa fa-laptop"></i>Web Design</p>
+  <p class="w3-wide"><img src="imgs/c.png" style="width:5%" class="w3-hover-opacity"> C/C++</p>
   <div class="w3-light-grey">
-    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:85%">85%</div>
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:90%">4 years</div>
   </div>
-  <p class="w3-wide"><i class="fa fa-photo"></i>Photoshop</p>
+  <p class="w3-wide"><img src="imgs/java.png" style="width:5%" class="w3-hover-opacity"> Java</p>
   <div class="w3-light-grey">
-    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:75%">75%</div>
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:70%">3 years</div>
+  </div>
+  <p class="w3-wide"><img src="imgs/html.png" style="width:6%" class="w3-hover-opacity"> HTML/CSS</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:50%">2 years</div>
+  </div>
+  <p class="w3-wide"><i class = "fa fa-laptop"></i>Network Security</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:50%">2 years</div>
+  </div>
+  <p class="w3-wide"><img src="imgs/key.png" style="width:5%" class="w3-hover-opacity"> Cryptography</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:50%">2 years</div>
+  </div>
+  <p class="w3-wide"><img src="imgs/digital.png" style="width:5%" class="w3-hover-opacity"> Access Management</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:30%">1 years</div>
+  </div>
+  <p class="w3-wide"><img src="imgs/soc.jpg" style="width:5%" class="w3-hover-opacity"> SOC Analysis</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:30%">1 years</div>
   </div>
 </div>
 
@@ -263,15 +281,15 @@ function onClick(element) {
 }
 
 // Change style of navbar on scroll
-window.onscroll = function() {myFunction()};
-function myFunction() {
-    var navbar = document.getElementById("myNavbar");
-    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
-    } else {
-        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
-    }
-}
+//window.onscroll = function() {myFunction()};
+//function myFunction() {
+var navbar = document.getElementById("myNavbar");
+    //if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+    //} else {
+//navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+   // }
+//}
 
 // Used to toggle the menu on small screens when clicking on the menu button
 function toggleFunction() {
